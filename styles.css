@@ -1,0 +1,162 @@
+
+#create{
+    color: darkred;
+    font-size:30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+.account{
+    background: linear-gradient(aliceblue,pink);
+    margin: 3px;
+    padding: 3px;
+    border: 3px solid whitesmoke;
+    text-align: center;  
+}
+button{
+    margin:2px;
+    padding:4px;
+    border-radius: 3px;
+    background-color:bisque;
+    font-size:15px;
+    font-weight:bold;
+    border:2px solid rgb(178, 103, 103);
+}
+.fill{
+    font-weight: bolder;
+}
+#logo{
+    border:3px solid rgb(10, 9, 12);
+    border-radius: 3px;
+}
+.H{
+    width:300px;
+    font-size:15px;
+    background-color: darksalmon;
+    text-align: center;
+    margin:auto;
+    margin-bottom:2px;
+    padding:2px;
+}
+.H:hover{
+    filter: brightness(80%);
+    border: 3px darkgreen dashed;
+    border-radius: 4px;
+    text-decoration: double;
+    color:rgb(14, 14, 14);
+}
+table ,td ,th{
+    border-collapse:collapse;
+    border: 2px solid black;
+    text-align: center;
+    padding: 4px;
+    
+}
+table{
+margin-left: 10%;
+width: 80%;
+}
+table td:hover{
+    background-color: grey;
+    color: black;
+}
+th{
+background-color: rgb(240, 217, 187);
+}
+caption{
+    font-weight: bold;
+    color: brown;
+    font-size: 20px;
+    margin: 3px;
+}
+tfoot:last-child{
+    font-weight: bold;
+}
+#contact{
+    border: 2px solid rgb(18, 17, 20);
+   text-align: center;
+    padding:6px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 3px;
+   
+}
+#contact p:nth-child(n+3)
+{
+    margin-left: 20px;
+    font-weight: bold;
+}
+#feed{
+    margin-top:14px;
+    font-weight: bold;
+    background-color: rgb(205, 220, 225);
+    text-align: center;
+    
+}
+#contact-feed{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    align-content: center;
+}
+#course{
+background-color:aliceblue;
+}
+.AN,nav a{
+    border: 1px solid rgb(26, 27, 26);
+    border-radius: 3px;
+    text-decoration: wavy;
+    padding: 3px;
+    font-weight: bold;
+    color: rgb(26, 27, 26);
+    background-color: white;
+}
+#C1 h2, #C2 h2, #C3 h2, #C4 h2{
+  color:midnightblue;
+    font-weight: bold;
+    
+}
+#El{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin:4px;
+    border:3px solid rgb(240, 155, 169);
+    font-style: italic;
+    text-align: center;
+    padding:1px;
+  background-color:floralwhite;
+}
+.home,details,nav{
+    text-align: center;
+
+}
+.courses{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+}
+#C1,#C2,#C3,#C4{
+    border:2px solid rgb(160, 65, 223);
+    border-radius: 4px;
+    padding:3px;
+    text-align: center;
+}
+#Page5{
+    background-color:lavenderblush;
+}
+a:hover{
+    background-color: pink;
+}
+#Featured{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+#Featured img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+#home{
+    background-color:lightblue;
+}
